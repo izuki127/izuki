@@ -1,0 +1,103 @@
+
+.header-logo{
+ width: 121px;
+ height: 44px;
+ padding: 0%;
+margin-left: 121px; 
+margin-top: 31px;
+margin-bottom: 10px;
+}
+
+.header-list {
+  margin-right: 106px;
+  float:right;
+  margin-top:31px;
+  margin-bottom: 30px;
+}
+.header-list li {
+  list-style: none;
+  display: inline;
+  padding-left: 52px;
+}
+/*ここまで終わっている*/
+
+.shopimg{
+  float:left ;
+  width: 100%;
+  height: 641px;
+  padding-left: 80px;
+  padding-right: 87px;
+ 
+}
+.about{
+  float: left;
+  text-align:center;
+  width: 122px;
+  height: 62px;
+  padding-left: 659px;
+  padding-bottom: 51px;
+  line-height: 180%;
+ 
+}
+.about1{
+  float:left;
+  text-align:center;
+  padding-left: 580px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 180%;
+}
+.about2{
+  float: left;
+  text-align:center;
+  width: 718px;
+  height: 87px;
+  padding-left: 361px;
+  padding-bottom: 117px;
+  font-size: 16px;
+  line-height: 180%;
+}
+.concept{
+  clear: left;
+text-align: center;
+padding-bottom: 14px;
+font-size: 24px;
+line-height: 180%;
+}
+.concept1{
+  clear: left;
+  text-align: center;
+  padding-bottom: 14px;
+  font-size: 20px;
+  line-height: 180%;
+}
+.concept2{
+  float: left;
+  padding-bottom: 74px;
+  font-size: 16px;
+  padding-left: 361px;
+  line-height: 180%;
+}
+.staff{
+  float: left;
+  font-size: 24px;
+  padding-left: 660px;
+  padding-bottom: 77px;
+  line-height: 180%;
+}
+
+.staff1{
+  float: left;
+  font-size: 16px;
+  padding-left: 662px;
+  padding-bottom: 30px;
+  line-height: 180%;
+}
+
+.staff2{
+  font-size: 16px;
+  float:left;
+  padding-left: 361px;
+  padding-bottom: 138px;
+  line-height: 180%;
+}
