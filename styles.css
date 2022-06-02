@@ -1,7 +1,9 @@
+
 body{
   margin:0px;
   width: 100%;
   height: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .header-logo{
  width: 121px;
@@ -23,6 +25,7 @@ margin-bottom: 10px;
   list-style: none;   /*リストの番号などを消せる*/
   display: inline;    /*横並びにできる*/
   padding-left: 52px;
+  font-family: 'Patrick Hand', cursive;
 }
 .shopimg{
   float:left ;
@@ -37,6 +40,7 @@ margin-bottom: 10px;
   width: 1440px;
 }
 #first{ 
+  font-family: 'Patrick Hand', cursive;
   font-weight: 500;
   line-height: 62px; /*行間を調節することができる*/
   margin:0%;
@@ -56,6 +60,7 @@ margin-bottom: 10px;
   font-size: 16px;
 }
 .concept{
+  font-family: 'Patrick Hand', cursive;
   line-height: 36px;
   margin:0%;
   margin-bottom: 14px;
@@ -86,6 +91,7 @@ ol{   /*左寄せのまま中央揃えは親要素と子要素で分けてあげ
   text-align: left; /*左寄せ*/
 }
 .staff{
+  font-family: 'Patrick Hand', cursive;
   font-weight: 500;
   line-height: 36px;
   float: left;
@@ -133,6 +139,7 @@ ol{   /*左寄せのまま中央揃えは親要素と子要素で分けてあげ
   text-align: left;
 }
 #second{
+  font-family: 'Patrick Hand', cursive;
   font-weight: 500;
   font-size: 42px;
   line-height: 62px;
@@ -171,6 +178,7 @@ ol{   /*左寄せのまま中央揃えは親要素と子要素で分けてあげ
   margin-bottom:104px ;
 }
 #third{
+  font-family: 'Patrick Hand', cursive;
   float: left;
   width: 1440px;
   text-align: center;
@@ -184,22 +192,27 @@ line-height: 23px;
 float: left;
 }
 .cut{
+  font-family: 'Patrick Hand', cursive;
   margin-left:243px;
   margin-bottom:123px;
 }
 .color{
+  font-family: 'Patrick Hand', cursive;
   margin-left:138px;
   margin-bottom: 75px;
 }
 .perm{
+  font-family: 'Patrick Hand', cursive;
   margin-left: 65px;
   margin-bottom: 27px;
 }
 .straighting{
+  font-family: 'Patrick Hand', cursive;
 clear: both;
  margin-left:243px;
 }
 .other{
+  font-family: 'Patrick Hand', cursive;
   margin-left:38px;
   margin-bottom:75px;
 }
@@ -254,6 +267,7 @@ height: 53px;
 margin-left:40px ;
 }
 #fourth{
+  font-family: 'Patrick Hand', cursive;
   float: left;
   width: 1440px;
   text-align:center;
@@ -276,6 +290,7 @@ margin-left:40px ;
   margin-bottom: 46px;
 }
 .reserve2 {
+  font-family: 'Patrick Hand', cursive;
   float: left;
   list-style: none;
   margin-left:483px ;
@@ -291,6 +306,7 @@ margin-left: 634px;
 margin-bottom: 157px;
 }
 #fifth{
+  font-family: 'Patrick Hand', cursive;
 float: left;
 width: 1440px;
 font-weight: 500;
