@@ -1,0 +1,584 @@
+
+body{
+  margin:0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.header-logo{
+ width: 121px;
+ height: 44px;
+ padding: 0%;
+margin-left: 80px; 
+margin-top: 31px;
+margin-bottom: 10px;
+}
+@media screen and (max-width:500px){
+  .header-logo{
+    width: 100px;
+    margin-left: 10px; 
+    margin-top: 20px;
+  }
+}
+.header-list {
+  font-size:16px;
+  margin-right: 87px;
+  float:right;
+  margin-top:31px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:500px){
+  .header-list{
+    margin-right: 34px;
+    margin-top:25px;
+    margin-bottom: 30px;
+  }
+}
+.header-list li {
+  list-style: none;   /*リストの番号などを消せる*/
+  display: inline;    /*横並びにできる*/
+  padding-left: 52px;
+  font-family: 'Patrick Hand', cursive;
+}
+@media screen and (max-width:500px){
+  .header-list li{
+    padding-left: 30px;
+    font-size: 12px;
+    
+  }
+}
+.shopimg img{ 
+  float:left ;
+  width: 85%;/*ワイヤーフレーム画像横余白に対して画像サイズ変更している*/
+  margin-left: 80px;
+  margin-right: 87px;
+  margin-bottom: 65px;
+}
+@media screen and (max-width:500px){
+  .shopimg img{
+   margin-top: 20px;
+   margin-left: 34px; 
+   margin-bottom: 45px;
+
+  }
+}
+
+.contents *{    /*  class名*で指定class全てを指定*/
+  float: left;
+  text-align:center;  /*テキスト中央揃え*/
+  width: 1440px;
+}
+@media screen and (max-width:500px){
+  .contents *{
+    width: 100%;
+  }
+}
+#first{ 
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 500;
+  line-height: 62px; /*行間を調節することができる*/
+  margin:0%;
+  margin-bottom:45px;
+  font-size:42px
+}
+@media screen and (max-width:500px){
+  #first{
+    font-size: 35px;
+    margin-bottom:30px;
+  }
+}
+.about1{
+  font-weight: 500; /*フォントの太さを調整できる*/
+  line-height: 36px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.about2{
+  line-height: 29px;
+  letter-spacing: 0.05em; /*字間を調節できる*/
+  margin-bottom: 75px;
+  font-size: 16px;
+}
+@media screen and (max-width:500px){
+ .about2{
+   font-size: 10px;
+   font-weight: bolder;
+ }
+}
+.concept{
+  font-family: 'Patrick Hand', cursive;
+  line-height: 36px;
+  margin:0%;
+  margin-bottom: 14px;
+  font-size: 24px;
+  font-weight: 500;
+
+
+}
+.concept1{
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.concept2{    /*左寄せのまま中央揃えは親要素と子要素で分けてあげる(親要素）*/
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-bottom: 75px;
+  font-size: 16px;
+  float: left;
+  text-align:center;  /*中央揃えとして反映される*/
+  width: 1440px;
+}
+@media screen and (max-width:500px){
+  .concept2{
+    width: 100%;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+ }
+ol{   /*左寄せのまま中央揃えは親要素と子要素で分けてあげる(子要素）*/
+  display: inline-block; /*text-alignの影響も受ける*/ 
+  text-align: left; /*左寄せ*/
+}
+.staff{
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 500;
+  line-height: 36px;
+  float: left;
+  font-size: 24px;
+  float: left;
+  text-align:center;
+  width: 1440px;
+  margin:0%;
+  margin-bottom: 60px;
+}
+@media screen and (max-width:500px){
+    .staff{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+}
+
+.staffimg{
+  float: left;
+  width: 129px;
+  height:134px;
+  margin-left: 461px;
+  margin-bottom: 38px;
+}
+@media screen and (max-width:500px){
+  .staffimg{
+    margin-left: 70px;
+  }
+}
+.staff1{
+  float: left;
+  font-size: 16px;
+  margin-left: 75px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:500px){
+  .staff1{
+    font-size: 15px;
+    margin-left: 55px;
+  }
+}
+.staff1 ul{
+  list-style: none; 
+  line-height:29px;
+  letter-spacing: 0.05em;
+  margin:0%;
+  padding:0%;
+}
+
+.staff2{
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  width: 1440px;
+  text-align: center;
+  float:left;
+  padding-bottom: 110px;
+}
+@media screen and (max-width:500px){
+  .staff2{
+    width:100%;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+}
+.comment{
+  display: inline-block;
+  text-align: left;
+}
+#second{
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+    width: 1440px;
+    text-align: center;
+    float: left;
+    margin-top: 0%;
+    margin-bottom:54px;
+}
+@media screen and (max-width:500px){
+  #second{
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+}
+.style1{
+  width: 1440px;
+  padding:0%;
+  float: left;
+  list-style: none; /*リストの記号を消せる*/
+  display: flex; /*並列にできる*/
+  justify-content: center; /*画像などのアイテムを中央に寄せる*/
+}
+@media screen and (max-width:500px){
+  .style1{
+    width: 100%;
+  }
+  }
+.style1 img{
+  width: 129px;
+  height: 134px;
+  margin-left:31px;
+  margin-bottom:30px ;
+}
+@media screen and (max-width:500px){
+ .style1 img{
+  width: 100px;
+  height: 110px;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+}
+.style2{
+  width: 1440px;
+  padding:0%;
+  float: left;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width:500px){
+  .style2{
+    width: 100%;
+  }
+}
+.style2 img{
+  width: 129px;
+  height: 134px;
+  margin-left:31px;
+  margin-bottom:104px ;
+}
+@media screen and (max-width:500px){
+  .style2 img{
+   width: 100px;
+   height: 110px;
+   margin-left: 10px;
+   margin-bottom:10px;
+ }
+}
+#third{
+  font-family: 'Patrick Hand', cursive;
+  float: left;
+  width: 1440px;
+  text-align: center;
+  margin-bottom:49px ;
+  font-size: 42px;
+  font-weight: 500;
+}
+@media screen and (max-width:500px){
+  #third{
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+ }
+.menu1 *{
+font-size: 16px;
+line-height: 23px;
+float: left;
+}
+
+.cut{
+  font-family: 'Patrick Hand', cursive;
+  margin-left:243px;
+  margin-bottom:123px;
+}
+@media screen and (max-width:500px){
+  .cut{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+}
+.color{
+  font-family: 'Patrick Hand', cursive;
+  margin-left:138px;
+  margin-bottom: 75px;
+}
+@media screen and (max-width:500px){
+  .color{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+}
+.perm{
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 65px;
+  margin-bottom: 27px;
+}
+  @media screen and (max-width:500px){
+    .perm{
+      width:100%;
+      text-align: center;
+      margin: 0%;
+      margin-bottom: 30px;
+    }
+  }
+.straighting{
+  font-family: 'Patrick Hand', cursive;
+clear: both;
+ margin-left:243px;
+}
+@media screen and (max-width:500px){
+  .straighting{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+}
+.other{
+  font-family: 'Patrick Hand', cursive;
+  margin-left:38px;
+  margin-bottom:75px;
+}
+@media screen and (max-width:500px){
+  .other{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 45px;
+  }
+}
+.menu2{
+  float: left;
+  width: 1440px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom:17px;
+}
+@media screen and (max-width:500px){
+  .menu2{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: rgb(185, 126, 38);
+  }
+}
+.menu3{
+  width: 1440px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+}
+@media screen and (max-width:500px){
+  .menu3{
+    width:90%;
+    font-size: 16px;
+    margin-left: 30px;
+    color: dimgray;
+  }
+}
+.menu4{
+  display: inline; /*平べったく横に並べる*/
+  text-align: left;
+}
+.btn1{
+  background-color: black;/*背景色*/
+  color: aliceblue;/*文字色*/
+  width: 187px;
+  height: 35px;
+  margin-left: 634px;
+  margin-top: 36px;
+  float: left;
+}
+@media screen and (max-width:500px){
+  .btn1{
+    margin-left:150px;
+    margin-bottom: 30px;
+  }
+}
+.pay{
+float: left;
+width: 100%;
+text-align: center;
+font-size: 16px;
+margin-top: 55px;
+margin-bottom: 24px;
+font-weight: 400;
+}
+@media screen and (max-width:500px){
+  .pay{
+    margin-top:0px;
+    margin-bottom: 30px;
+  }
+}
+.card{
+  float: left;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0%;
+  margin-left :460px ;
+  margin-bottom :147px; ;
+}
+@media screen and (max-width:500px){
+  .card{
+    margin-left:0px;
+    margin-bottom: 30px;
+  }
+}
+.card img{
+  text-align: center;
+width: 73px;
+height: 53px;
+margin-left:40px ;
+margin-bottom: 80px;
+}
+
+#fourth{
+  font-family: 'Patrick Hand', cursive;
+  float: left;
+  width: 1440px;
+  text-align:center;
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0%;
+}
+@media screen and (max-width:500px){
+  #fourth{
+    width:100%;
+    font-size: 35px;
+  }
+}
+.reserve1{
+  float: left;
+  font-size: 16px;
+  width: 1440px;
+  text-align: center;
+}
+@media screen and (max-width:500px){
+  .reserve1{
+    width:100%;
+  }
+}
+.tel{
+  width: 1440px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 46px;
+}
+@media screen and (max-width:500px){
+  .tel{
+    width:100%;
+  }
+}
+.reserve2 {
+  font-family: 'Patrick Hand', cursive;
+  float: left;
+  list-style: none;
+  margin-left:483px ;
+  font-size: 16px;
+ margin-bottom: 40px;
+ padding: 0%;
+}
+@media screen and (max-width:500px){
+  .reserve2{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 40px;
+  }
+}
+.btn2{
+  background-color:black;
+  color: cornsilk;
+  float: left;
+margin-left: 634px;
+margin-bottom: 157px;
+}
+@media screen and (max-width:500px){
+  .btn2{
+    margin-left: 190px;
+    margin-bottom: 30px;
+  }
+}
+#fifth{
+  font-family: 'Patrick Hand', cursive;
+float: left;
+width: 1440px;
+font-weight: 500;
+text-align: center;
+font-size:42px ;
+margin-bottom: 47px;
+}
+@media screen and (max-width:500px){
+  #fifth{
+    width:100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+}
+.access1{
+float: left;
+font-size: 16px;
+margin-bottom: 21px ;
+margin-left: 506px;
+}
+@media screen and (max-width:500px){
+  .access1{
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 40px;
+  }
+}
+.map{
+  width: 604px;
+  height: 238px;
+  margin-left:418px ;
+  float: left;
+}
+@media screen and (max-width:500px){
+  .map{
+    margin:0%;
+  }
+}
+@media screen and (max-width:500px){
+  .map iframe{
+    width: 400px;
+    height: 250px;
+    margin-left: 55px;
+  }
+}
